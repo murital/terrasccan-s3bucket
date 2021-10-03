@@ -1,7 +1,14 @@
 ## backend data for terraform
 terraform {
-  # Terraform version at the time of writing this post
-  required_version = ">= 0.12.24"
+  required_version = ">= 0.13"
+
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = ">= 3.45"
+    }
+  }
+}
 
   #backend "s3" {
    # bucket = "ami-cp-state"
