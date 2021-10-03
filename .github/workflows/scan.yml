@@ -1,7 +1,7 @@
 on:  
  push:
     branches:
-      - terrascan-scan
+      - terrascan-test
 
 jobs:
   terrascan_job:
