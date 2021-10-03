@@ -1,7 +1,7 @@
 on:  
  push:
     branches:
-      - terraform-plan
+      - terrascan-scan
 
 jobs:
   terrascan_job:
